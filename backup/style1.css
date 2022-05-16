@@ -1,0 +1,369 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.logo {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: flex;
+	height: 75px;
+	font-size: larger;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	flex: 4;
+}
+
+.iner-block-cart {
+	flex: 2;
+	list-style: none;
+	margin: 0;
+	padding-left: 0px;
+	overflow: hidden;
+	background-color: white;
+	display: flex;
+}
+
+.menu li {
+	float: left;
+}
+
+li a,
+.dropbtn {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover,
+.dropdown:hover .dropbtn {
+	background-color: gainsboro;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+* {
+	box-sizing: border-box
+}
+/*section {
+  background: url('images/bg.jpg');
+background-repeat: no-repeat;
+background-size: cover
+}*/
+
+.products {
+  border: 2px solid purple;
+  padding: 0 40px 0 40px;
+  width: 350px;
+  height:350px;
+  border-radius: 20px 0 20px 0;
+  margin: 40px 50px 5px 50px;
+  box-sizing: border-box;
+}
+.products:hover {
+  transform: scale(1.1); 
+}
+.pr_name
+{
+  font-size: 50px;
+  font-family:'Lora';
+  text-align:center;
+  color:#fffa65;
+  
+}
+
+
+
+.container {
+   margin-left: 150px;
+   margin-right: 150px;
+}
+.intro_content {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.intro_title {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.intro_content h1 {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+.intro_content p {
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.intro_image {
+	width: 1200px;
+	height:800px;
+}
+footer {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 50px 100px;
+	background: white;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+footer .container .noi-dung {
+	margin-right: 30px;
+}
+
+footer .container .noi-dung.about {
+	width: 25%;
+}
+
+footer .container .noi-dung.about h2 {
+	position: relative;
+	color: black;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+footer .container .noi-dung.about h2:before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 150px;
+	height: 2px;
+	background: #f00;
+}
+
+footer .container .noi-dung.about p {
+	color: black;
+}
+
+
+/*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+
+.social-icon {
+	margin-top: 20px;
+	display: flex;
+}
+
+.social-icon li {
+	list-style: none;
+}
+
+.social-icon li a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: #222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.social-icon li a:hover {
+	background: #f00;
+}
+
+.social-icon li a .fa {
+	color: #fff;
+	font-size: 20px;
+}
+
+.links h2 {
+	position: relative;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.links h2 {
+	position: relative;
+	color: black;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.links h2::before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 150px;
+	height: 2px;
+	background: #f00;
+}
+
+.links {
+	position: relative;
+	width: 25%;
+}
+
+.links ul li {
+	list-style: none;
+}
+
+.links ul li a {
+	color: black;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.links ul li a:hover {
+	background-color: #f1f1f1;
+}
+
+.contact h2 {
+	position: relative;
+	color: black;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.contact h2::before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 250px;
+	height: 2px;
+	background: #f00;
+}
+
+.contact {
+	width: calc(35% - 60px);
+	margin-right: 0 !important;
+}
+
+.contact .info {
+	position: relative;
+}
+
+.contact .info li {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+	color: black;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.contact .info li span {
+	color: black;
+}
+
+.contact .info li a {
+	color: black;
+	text-decoration: none;
+}
+
+.btn {
+	display: inline-block;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin-top: 16px;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+}
+
+.btn--primary {
+	background: #222;
+	color: #fff;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+	border-radius: 2px;
+	padding: 8px 24px;
+}
+
+.btn--primary:hover {
+	background: #f00;
+}
+
+.btn--primary:active {
+	background: #f00;
+	box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+
+.form__field {
+	width: 90%;
+	background: #fff;
+	color: #a3a3a3;
+	font: inherit;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+	border: 0;
+	outline: 0;
+	padding: 8px 4px;
+}
+
+@media (max-width: 768px)
+{
+	footer {
+		padding: 40px;
+	}
+	footer .container {
+		flex-direction: column;
+	}
+	footer .container .noi-dung {
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+	footer .container,
+	.noi-dung.about,
+	.links,
+	.contact {
+		width: 100%;
+	}
+
